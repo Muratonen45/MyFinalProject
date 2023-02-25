@@ -36,7 +36,7 @@ namespace WebAPI.Controllers
         public IActionResult GetByİd(int id) 
         { 
             var result = _productService.GetById(id);
-            if (result.Success)
+              if (result.Success)
             {
                 return Ok(result);
             }
